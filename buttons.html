@@ -1,14 +1,15 @@
 <style>
-    .subscribe-button{
-        background-color: red;
-        color: white;
-        border: none;
-        height: 36px;
-        width: 105PX;
-        border-radius: 2px;
-        cursor: pointer;
-        margin-right: 8px;
-    }
+.subscribe-button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105PX;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    
+}
 
 .join-button{
     background-color: white;
@@ -22,6 +23,25 @@
     cursor: pointer;
     margin-right: 8px;
     font-weight: bold;
+    transition: background-color 1s,
+    color 1s;
+}
+.subscribe-button:hover{
+    opacity: 0.8;
+}
+.subscribe-button:active{
+    opacity: 0.1;
+}
+
+.join-button:hover{
+    background-color: rgb(40, 40, 223);
+    color: white;
+
+    transition: background-color 1s,
+    color 1s;
+}
+.join-button:active{
+    opacity: 0.1;
 }
 .tweet-button{
     background-color: rgb(10, 170, 233);
@@ -33,6 +53,12 @@
     border-radius: 15px;
     cursor: pointer;
     font-weight: bold;
+    transition: background-color 0.15s,
+    color 0.15s;
+}
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.15);
+
 }
 .uber-button{
     background-color: black;
@@ -65,7 +91,7 @@
     width: 90px;
     border-radius: 5px;
     cursor: pointer;
-    margin-right:8px;
+    margin-right: 8px;
     
 }
 
